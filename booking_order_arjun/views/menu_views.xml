@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- This Menu Item Must have a parent -->
+    <menuitem 
+    id="bookingord_menu_root" 
+    name="Booking Order" 
+    sequence="10"/>     
+    
+    <!-- This Menu Item Must have a parent -->
+    <menuitem 
+    id="booking_menu_categ" 
+    name="Booking" 
+    parent="sale.sale_menu_root" 
+    sequence="10"/>
+
+    <!-- This Menu Item Must have a parent -->
+    <menuitem 
+    id="order_menu_categ" 
+    name="Order" 
+    parent="sale.sale_menu_root" 
+    sequence="10"/>
+
+    <!-- This Menu Item Must have a parent -->
+    <menuitem 
+    id="toinvoice_menu_categ" 
+    name="To Invoice" 
+    parent="sale.sale_menu_root" 
+    sequence="10"/>
+
+    <!-- This Menu Item Must have a parent -->
+    <menuitem 
+    id="products_menu_categ" 
+    name="Products" 
+    parent="sale.sale_menu_root" 
+    sequence="10"/>
+
+    <!-- This Menu Item Must have a parent -->
+    <menuitem 
+    id="reporting_menu_categ" 
+    name="Reporting" 
+    parent="sale.sale_menu_root" 
+    sequence="10"/>
+
+    <!-- This Menu Item Must have a parent -->
+    <menuitem 
+    id="configuration_menu_categ" 
+    name="Configuration" 
+    parent="sale.sale_menu_root" 
+    sequence="10"/>
+    
+</odoo>
